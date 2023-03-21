@@ -1,5 +1,5 @@
 import "./current-weather.css"
-
+import Darkmode from 'darkmode-js';
 const CurrentWeather = ({data}) => {
     return (
         <div className="weather">

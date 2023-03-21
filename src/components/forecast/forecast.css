@@ -5,10 +5,10 @@
 }
 
 .daily-item {
-    background-color: #f5f5f5;
+    background-color: #d4d5cf;
     border-radius: 15px;
     height: 40px;
-    margin: 5px;
+    margin: 6px 0px 0px 10px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -31,6 +31,7 @@
     flex: 1 1;
     margin-right: 15px;
     text-align: right;
+    text-transform: capitalize;
 }
 
 .min-max {
@@ -57,6 +58,7 @@
 }
 .daily-details-grid-item label:first-child{
     color: #757575;
+    text-transform: capitalize;
 }
 .daily-details-grid-item label:last-child{
     color: #110f0f;
